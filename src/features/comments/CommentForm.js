@@ -76,7 +76,7 @@ const CommentForm = ({campsiteId}) => {
                                 <Label htmlFor='commentText'>Comment</Label>
                                 <Field 
                                     name='commentText'
-                                    as='tetarea'
+                                    as='textarea'
                                     rows='12'
                                     className='form-control'
                                 />
